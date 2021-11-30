@@ -11,7 +11,7 @@ class Ex08{
 		int	d;
 		long	e;
 		
-		b = 127;
+		b = 126;
 		c = 32767;
 		d = 2147483647;
 		e = 9223372036854775807l;
@@ -19,6 +19,5 @@ class Ex08{
 		System.out.println("short: "+c);
 		System.out.println("int  : "+d);
 		System.out.println("long : "+e);
-
 	}
 }
