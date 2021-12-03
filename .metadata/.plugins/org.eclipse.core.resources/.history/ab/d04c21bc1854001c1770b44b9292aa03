@@ -72,9 +72,9 @@ public class Ex13 {
 		case 9:						// 100~90.0
 			score = 'A';			// 89.99~80.0
 			break;					// 79.99~70.0
-		case 8:						// 69.99~60.0
+		case 8:
 			score = 'B';
-			break;					// 원칙적으로 스위치 문은 할 수 없는 일이지만 이런 식으로 할 수 있음
+			break;
 		case 7:
 			score = 'C';
 			break;
