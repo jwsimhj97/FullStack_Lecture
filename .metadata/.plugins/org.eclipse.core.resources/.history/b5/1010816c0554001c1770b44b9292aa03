@@ -1,0 +1,11 @@
+package com.rom802;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+		// 조건문 - switch문
+		// switch(조건)
+		
+	}
+
+}
