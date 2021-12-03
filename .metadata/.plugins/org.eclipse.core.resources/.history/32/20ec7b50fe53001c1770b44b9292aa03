@@ -1,0 +1,19 @@
+package com.rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		int su;
+		su=3;
+		// su가 양수이면 "양수입니다"출력
+		// su가 음수미녕 "음수입니다"출력
+		if (su >= 0) {
+			System.out.println("양수입니다");
+		}
+		if (su < 0) {
+			System.out.println("음수입니다");
+		}
+
+	}
+
+}
