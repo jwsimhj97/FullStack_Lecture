@@ -5,9 +5,9 @@ public class Ex03 {
 	public static void main(String[] args) {
 		// 사칙연산(+-*%)
 		int a;
-		int b;
+		char b;
 		a=5;
-		b=2;
+		b='a';
 		System.out.println(a+b);
 		System.out.println(a-b);
 		System.out.println(a*b);
@@ -22,7 +22,12 @@ public class Ex03 {
 		c = 2.0;
 		
 		System.out.println(a/c);
-		
 		System.out.println(a%b);
+		
+		System.out.println(1+2+3*2-1);
+//		System.out.println(1+2+6-1);
+//		System.out.println(3+6-1);
+//		System.out.println(9-1);
+//		System.out.println(8);
 	}
 }

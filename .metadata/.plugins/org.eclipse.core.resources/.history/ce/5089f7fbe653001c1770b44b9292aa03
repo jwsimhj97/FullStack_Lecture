@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		// 단항 연산자
+		int a;
+		a=2;
+		a=a+1;	// 대입 연산자는 가장 늦다
+		System.out.println(a);
+	}
+
+}

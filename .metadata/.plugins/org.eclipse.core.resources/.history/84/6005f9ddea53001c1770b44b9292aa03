@@ -1,0 +1,29 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		// 단항 연산자
+		int a;
+		a=2;
+//		a=a+1;	// 대입 연산자는 가장 늦다
+		//프로그래밍에서는 자주 필요해서 이러한 연산자가 따로 있음
+		
+		a++;
+		
+//		a++;
+//		++a;
+//		이 두가지가 있다
+		System.out.println((a++)+(++a));
+		System.out.println(++a);
+		// 두 가지의 경우는 차이가 조금 있음
+		
+		byte b;
+		b=3;
+		b++;
+		double c = 1;
+		double c= 10.0;
+		c++;
+	}
+
+}
