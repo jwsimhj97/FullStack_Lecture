@@ -1,0 +1,20 @@
+package com.rom802;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		// 사칙연산(+-*%)
+		int a;
+		byte b;
+		a=5;
+		b=2;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		// 연산 순서는 곱하기 나누기가 먼저 일어남
+		// 동일한 상황에서는 왼쪽이 먼저 연산됨
+		
+	}
+
+}
