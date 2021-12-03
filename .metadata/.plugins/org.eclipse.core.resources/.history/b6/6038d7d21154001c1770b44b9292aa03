@@ -77,7 +77,8 @@ public class Ex13 {
 		System.out.println("--------------------------------------------------------");
 		System.out.println("학점:"+score);
 		if (retake) {
-			System.out.println("재수강하세요");
+			System.out.println("재수강하세요");			
 		}
 	}
+
 }

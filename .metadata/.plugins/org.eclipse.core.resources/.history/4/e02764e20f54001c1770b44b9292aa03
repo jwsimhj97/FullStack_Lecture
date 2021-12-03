@@ -20,19 +20,17 @@ public class Ex13 {
 		// 학점:F
 		//		재수강하세요
 		
-		int			kor, eng, math, sum;
+		int			kor, eng, math;
 		char		score;
 		boolean		retake;
-		double		avg;
 		
 		kor = 96;
 		eng = 69;
 		math = 73;
 		retake = false;
 		
-		sum = kor+eng+math;
-	
-		avg = sum/3.0;
+		int		sum = kor+eng+math;
+		double	avg = sum/3.0;
 		avg = (int)(avg * 100) / 100.0;
 		
 		
@@ -70,14 +68,15 @@ public class Ex13 {
 		
 		
 		System.out.println("--------------------------------------------------------");
-		System.out.println("국어:"+kor+"\t\t| 영어:"+eng+"\t| 수학:"+math);
+		System.out.println("국어:"+kor+"\t\t	| 영어:"+eng+"\t| 수학:"+math);
 		System.out.println("--------------------------------------------------------");
 		System.out.println("합계:"+sum);
 		System.out.println("평균:"+avg);
 		System.out.println("--------------------------------------------------------");
 		System.out.println("학점:"+score);
 		if (retake) {
-			System.out.println("재수강하세요");
+			System.out.println("재수강하세요");			
 		}
 	}
+
 }
