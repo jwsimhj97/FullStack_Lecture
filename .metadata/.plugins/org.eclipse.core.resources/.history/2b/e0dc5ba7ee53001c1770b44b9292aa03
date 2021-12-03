@@ -1,0 +1,11 @@
+package com.rom802;
+
+public class Ex07 {
+	public static void main(String[] args) {
+		// 대입 연산자
+		
+		int a;
+		a=2;
+		System.out.println(a);
+	}
+}
