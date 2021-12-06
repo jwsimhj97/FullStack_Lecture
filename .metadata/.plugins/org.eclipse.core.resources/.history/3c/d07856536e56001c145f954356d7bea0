@@ -6,7 +6,7 @@ public class Ex05 {
 		
 		for (int backNum=1; backNum<=9; backNum++) {
 			for (int frontNum=2; frontNum<=9; frontNum++) {
-				System.out.print(frontNum + " * " + backNum + " = " + frontNum*backNum + "\t");
+				System.out.println(frontNum + " * " + backNum + " = " + frontNum*backNum + "\t");
 			}
 			System.out.println();
 		}

@@ -52,6 +52,13 @@ public class Ex06 {
 			System.out.println();
 		}
 		
+		System.out.println();
+		for (int i=1; i<=9; i++) {
+			System.out.print(i + " ");
+		}
+		
+
+		
 		
 		// Q4.
 		System.out.println();

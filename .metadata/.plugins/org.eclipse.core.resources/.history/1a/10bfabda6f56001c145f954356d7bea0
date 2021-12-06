@@ -53,6 +53,15 @@ public class Ex06 {
 		}
 		
 		
+		System.out.println();
+		int j = 0;
+		for (int i=1; i<=9; i++) {
+			if (i % 3 == 0) j-=2;
+			System.out.print(i+j);
+		}
+		
+		
+		
 		// Q4.
 		System.out.println();
 		for (int i=(int)'A'; i<='G'; i+=3) {
