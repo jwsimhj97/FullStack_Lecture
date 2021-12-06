@@ -1,0 +1,12 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		int kor, eng, math;
+		kor = 96;
+		eng = 69;
+		math = 73;
+	}
+
+}

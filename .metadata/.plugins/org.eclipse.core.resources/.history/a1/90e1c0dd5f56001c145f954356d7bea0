@@ -1,0 +1,34 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+		boolean re=false;
+		int kor, eng, math;
+		char score;
+		kor = 96;
+		eng = 69;
+		math = 74;
+		
+		int sum = kor+eng+math;
+		double avg = sum*100/3/100.0;
+		
+		if (avg >= 90) {
+			score = 'A';
+		} else if (avg >= 80) {
+			score = 'B';
+		} else if (avg >= 70) {
+			score = 'C';
+		} else if (avg >= 60) {
+			score = 'D';
+		} else {
+			score = 'F';
+			re = true;
+		}
+		
+		System.out.println("--------------------------");
+		System.out.println("국어:"+kor+"\t\t"+"| 영어:"+eng+"\t\t"+"| 수학:"+math);
+	}
+
+}
