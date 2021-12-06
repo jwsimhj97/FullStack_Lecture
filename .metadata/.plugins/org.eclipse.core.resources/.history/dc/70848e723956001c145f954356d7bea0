@@ -1,0 +1,14 @@
+package com.rom802;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// 제어문(반복문, 3가지 - for문)
+		// for(초기화;조건문;증감식){
+		//  반복수행할 명령;
+		// }
+		for(int i=0; i<5; i++) {
+			System.out.println("반복");
+		}
+	}
+}
