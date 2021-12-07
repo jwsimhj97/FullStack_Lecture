@@ -1,0 +1,31 @@
+package com.rom802;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		for (int i=1; i<=3; i++) {
+			for (int j=0+i; j<3+i; j++) {
+				System.out.print(j);		// 조건 안에서 더하지 않고 프린트 하는 곳에서 더해도 됨
+			}
+			System.out.println();
+		}
+		
+		su=1;
+		for (int i=1; i<9; i++) {
+			for (int j=0; j<3; j++) {
+				
+			}
+			System.out.println();
+			su-=2;
+		}
+	}
+
+}
+
+// 3 줄을 찍는데 그 한 줄 한줄에서도 별이 세 번 반복이다
+// 한 줄을 세 번 출력 했는데
+// 그 한 줄이 동일하니까 반복문으로
+
+// 1 2 3
+// 4 5 6
+// 7 8 9

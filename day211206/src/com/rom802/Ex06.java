@@ -52,6 +52,8 @@ public class Ex06 {
 			System.out.println();
 		}
 		
+		// 3번 문제는 2번 문제의 변형이다
+		
 		
 		// Q4.
 		System.out.println();
