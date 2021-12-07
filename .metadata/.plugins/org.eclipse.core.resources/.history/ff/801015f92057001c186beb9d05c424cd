@@ -1,0 +1,14 @@
+package com.rom802;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		// 제어문 - 반복문 - while문
+		
+		// while(조건-boolean) {
+		// 	실행문;
+		// }		
+		
+	}
+
+}

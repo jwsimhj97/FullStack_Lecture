@@ -1,0 +1,16 @@
+package com.rom802;
+
+public class Ex07 {
+	public static void main(String[] args) {
+		
+		int i=0;
+		while (++i<=9) {
+			int j=2;
+			while (j<=9) {
+				System.out.print(j + " x " + i + " = " + i*j + "\t");
+				j++;
+			}
+			System.out.println();
+		}
+	}
+}
