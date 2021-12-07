@@ -1,0 +1,11 @@
+package com.rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		// 사용자 입력
+		java.util.scanner sc=new java.util.Scanner(System.in);
+
+	}
+
+}

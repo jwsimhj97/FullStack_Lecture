@@ -1,0 +1,11 @@
+package com.rom802;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		// ¹è¿­
+		
+		int[] arr = new int[5];
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		// 문자열을 숫자로 변환
+		String msg="1234";
+		
+		System.out.println(msg+1);		// 문자열 + 1 = "문자열1"
+
+	}
+
+}
