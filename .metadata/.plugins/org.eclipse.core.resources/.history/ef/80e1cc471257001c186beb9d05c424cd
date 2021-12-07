@@ -1,0 +1,25 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		// 앞의 문제와 반대로 3번 2번 1번 ... 줄어든다
+		for (int i=3; i>0; i--) {		// 이 줄은 3번 돌겠다는 것만 결정함
+			for (int j=0; j<i; j++) {
+				System.out.print('*');
+			}
+			System.out.println();		// 안쪽 for문에 3-i 이런 식으로 하는 것보다는
+										// 바깥쪽 for문을 감소하는 값으로 주면 계산이 편하다
+		}
+		
+		// 혹은
+		
+		for (int i=0; i<3; i++) {
+			for (int j=0; j<3-i; j++) {
+				System.out.print('*');
+			}
+		}
+	}
+
+}

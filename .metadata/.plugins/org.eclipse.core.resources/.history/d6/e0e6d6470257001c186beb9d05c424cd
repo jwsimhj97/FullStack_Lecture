@@ -1,0 +1,80 @@
+package com.rom802;
+
+public class Ex02 {
+
+	
+	public static void main(String[] args) {
+		String msg="";
+		
+		for (int i=1; i<=3; i++) {
+			for (int j=1; j<=i; j++) {
+				msg+='*'+" ";
+			}
+			msg+='\n';
+		}
+		System.out.println(msg);
+		
+		
+		
+		for (int i=1; i<=3; i++) {
+			for (int j=1; j<=i; j++) {
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
+		
+
+		System.out.println();
+		int su=1;
+		for (int i=1; i<=3; i++) {
+			for (int j=1; j<=i; j++) {
+				System.out.print(su+" ");
+				su++;
+			}
+			System.out.println();
+		}
+		
+		
+		System.out.println();
+		for (int i=0; i<3; i++) {
+			for (int j=3-i; j>0; j--) {
+				System.out.print("*" + " ");
+			}
+			System.out.println();
+		}
+		
+
+		System.out.println();
+		for (int i=0; i<3; i++) {
+			int su2=1;
+			for (int j=3-i; j>0; j--) {
+				System.out.print(su2 + " ");
+				su2++;
+			}
+			System.out.println();
+		}
+		
+
+		System.out.println();
+		int su3=1;
+		for (int i=0; i<3; i++) {
+			for (int j=3-i; j>0; j--) {
+				System.out.print(su3 + " ");
+				su3++;
+			}
+			System.out.println();
+		}
+		
+
+		System.out.println();
+		for (int i=1; i<=3; i++) {
+			for (int j=1; j<=3; j++) {
+				if (i-j-1>0) {
+					System.out.print("* ");
+				} else {
+					System.out.print(""  ");
+				}
+			}
+		}
+	}
+}
