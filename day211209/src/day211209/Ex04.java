@@ -27,5 +27,9 @@ public class Ex04 {
 		me = new Ex04();
 		System.out.println(me.c);
 		me.func01();
+		System.out.println(Ex05.c);
+		Ex05.c += 1;
+		System.out.println(Ex05.c);
+		
 	}
 }

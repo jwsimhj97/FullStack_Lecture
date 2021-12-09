@@ -1,0 +1,14 @@
+package day211209;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		boolean boo = true;		// 반복문 탈출 제어
+		while (boo) {
+			System.out.print("1.입력 2.출력 0.종료>");
+		}
+
+	}
+
+}

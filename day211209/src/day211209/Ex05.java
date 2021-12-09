@@ -29,6 +29,7 @@ public class Ex05 {
 		d=b;
 		func02();	// 매개변수를 전달하지 않았음에도 전달하는 효과를 낸다
 		System.out.println(msg);
+		System.out.println(c);
 	}
 
 }
