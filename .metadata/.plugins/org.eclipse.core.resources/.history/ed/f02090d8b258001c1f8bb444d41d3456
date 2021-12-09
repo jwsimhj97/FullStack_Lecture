@@ -1,0 +1,18 @@
+package day211209;
+
+public class Ex04 {
+	// 클래스의 구성요소
+	// 1. 메서드
+	// 2. 변수
+
+	public static int b=2222;
+	public int c=3333;
+	
+	
+	public static void main(String[] args) {
+		int su1=1234;
+		System.out.println(su1);
+
+	}
+
+}

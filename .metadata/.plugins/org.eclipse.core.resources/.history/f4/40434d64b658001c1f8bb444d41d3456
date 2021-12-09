@@ -1,0 +1,31 @@
+package day211209;
+
+public class Ex05 {
+
+	public static int c;
+	public static int d;
+	
+	public static void func01(int a, int b) {
+		System.out.println(a+b);
+	}
+	
+	public static void func02() {
+		int a=10;
+		int b=5;
+		int[] arr = new int[]{a,b};
+		return arr;
+		
+	}
+	
+	public static void main(String[] args) {
+		int a,b;
+		
+		a=2;
+		b=3;
+		func01(a, b);
+		c=a;
+		d=b;
+		func02();	// 매개변수를 전달하지 않았음에도 전달하는 효과를 낸다
+	}
+
+}
