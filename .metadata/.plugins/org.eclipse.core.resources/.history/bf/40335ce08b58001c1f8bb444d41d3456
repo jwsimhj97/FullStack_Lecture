@@ -1,0 +1,45 @@
+package day211209;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		int me, com;
+		
+		me=1;
+		com=1;
+		System.out.println("게임을 시작하겠습니다");
+		
+		System.out.println("1.가위 2.바위 3.보");
+		String input = sc.nextLine();
+		me = Integer.parseInt(input);
+		com=(int)(Math.random()*3)+1; 
+		System.out.print("me:");
+		if (me==1) {
+			System.out.print("가위"+",com:");	// me가 뭐냐에 따라서 가위바위보로 나눠서 출력하면 됨
+			if (com==1) {
+				System.out.println("가위");
+			} else if(com==2) {
+				System.out.println("바위");
+			} else if (com==3) {
+				System.out.println("보");
+			}
+		} else if (me==2) {
+			System.out.println("바위"+",com:"+"가위");
+			if (com==1) {
+				System.out.println("가위");
+			} else if(com==2) {
+				System.out.println("바위");
+			} else if (com==3) {
+				System.out.println("보");
+			}
+		} else if (me==3) {								// 만약 이 부분을 else로 하면 4,5,6이 나와도 보 를 낸 것으로 되버림
+			System.out.println("보"+",com:"+"가위");
+		}
+		
+		
+		System.out.println("0승3무0패");
+		System.out.println("이용해주셔서 감사합니다");
+	}
+
+}

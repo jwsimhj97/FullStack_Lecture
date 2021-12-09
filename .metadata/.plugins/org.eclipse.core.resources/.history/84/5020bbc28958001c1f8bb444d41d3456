@@ -1,0 +1,18 @@
+package day211209;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		int me, com;
+		
+		me=1;
+		com=1;
+		System.out.println("게임을 시작하겠습니다");
+		
+		System.out.println("1.가위 2.바위 3.보");
+		System.out.println("me:"+"가위"+",com"+"가위");
+		
+		
+	}
+
+}

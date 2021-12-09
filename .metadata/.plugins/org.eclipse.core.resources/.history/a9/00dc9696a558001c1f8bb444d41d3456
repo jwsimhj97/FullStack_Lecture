@@ -1,0 +1,12 @@
+package day211209;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		Ex03 me=new Ex03();
+		System.out.println(me);
+		me.func02(me);
+
+	}
+
+}
