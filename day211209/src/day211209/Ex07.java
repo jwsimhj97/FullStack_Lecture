@@ -2,16 +2,14 @@ package day211209;
 
 public class Ex07 {
 
-	public static int[][] inputScore(String[] subject) {
+	public static int cnt = 0;
+
+	public static int[][] inputScore(String[] score, String[] subject) {
 		java.util.Scanner sc = new java.util.Scanner(System.in);
 		
-		int[][] score = new int[3][3];
-		
-		for (int i=0; i<3; i++) {
-			for (int j=0; j<3; j++) {
-				System.out.println("학생"+(i+1)+"의 "+subject[j]+"점수");
-				score[i][j] = Integer.parseInt(sc.nextLine());
-			}
+		for (int j=0; j<3; j++) {
+			System.out.println("학생"+(cnt+1)+"의 "+subject[j]+"점수");
+			score[cnt][j] = Integer.parseInt(sc.nextLine());
 		}
 		return score;
 	}
@@ -47,7 +45,11 @@ public class Ex07 {
 			if (!(menu==0 || menu==1 || menu==2)) {
 				System.out.println("1,2,0 중 하나를 입력해주세요");
 			} else if (menu==1) {
-				score = inputScore(subject);
+				if (cnt > 3) {
+					System.out.println("over 3");
+					continue;
+				}
+				score = inputScore(score, subject);
 				System.out.println("입력이 끝났습니다");
 			} else if (menu==2) {
 				showScore(intro, score, bar);
