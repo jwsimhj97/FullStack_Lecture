@@ -28,7 +28,6 @@ public class Ex07 {
 	
 	public static void main(String[] args) {
 		java.util.Scanner sc = new java.util.Scanner(System.in);
-		// 잘못 짠 프로그램 ... (한 명씩 3번 카운팅 해야 함)
 		String		input;
 		int			menu;
 		String[]	subject = new String[]{"국어", "영어", "수학"};		
