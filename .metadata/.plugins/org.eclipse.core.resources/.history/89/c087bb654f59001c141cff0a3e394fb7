@@ -45,11 +45,12 @@ public class Ex07 {
 			if (!(menu==0 || menu==1 || menu==2)) {
 				System.out.println("1,2,0 중 하나를 입력해주세요");
 			} else if (menu==1) {
-				if (!(cnt < 3)) {
-					System.out.println("입력이 끝났습니다");
+				if (cnt > 3) {
+					System.out.println("over 3");
 					continue;
 				}
 				score = inputScore(score, subject);
+				System.out.println("입력이 끝났습니다");
 			} else if (menu==2) {
 				showScore(intro, score, bar);
 			}
