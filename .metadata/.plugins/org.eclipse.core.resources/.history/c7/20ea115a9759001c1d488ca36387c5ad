@@ -27,7 +27,7 @@ public class Ex10 {
 		
 		System.out.println("aa");
 		int a=1;
-		System.out.println("java1"=="java"+a);	// "java" + a 는 새로운 객체를 만든다
+		System.out.println("java1"=="java"+a);	// 연산 불가
 		System.out.println("java1"=="java"+1);	// 상수연산이 이미 돼서 "java1" 로 만들고 상수영역에 올라간다
 	}
 }

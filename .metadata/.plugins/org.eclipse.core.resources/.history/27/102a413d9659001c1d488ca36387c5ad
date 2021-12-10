@@ -1,0 +1,14 @@
+package com.rom802;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+		// 문자열의비교
+		
+		String msg1="java";
+		String msg2="java";
+		String msg3=new String("java");
+		System.out.println();
+		
+	}
+}
