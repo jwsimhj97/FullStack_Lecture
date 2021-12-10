@@ -22,7 +22,7 @@ public class Ex04 {
 		Ex04 me=new Ex04(1234);
 		System.out.println(me.su);
 		System.out.println(me.su3);
-		me.su3=54321;
+//		me.su3=54321;
 //		su5=6666;
 		
 	}
