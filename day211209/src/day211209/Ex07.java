@@ -6,7 +6,6 @@ public class Ex07 {
 
 	public static int[][] inputScore(int[][] score, String[] subject) {
 		java.util.Scanner sc = new java.util.Scanner(System.in);
-		
 		for (int j=0; j<3; j++) {
 			System.out.println("학생"+(cnt+1)+"의 "+subject[j]+"점수");
 			score[cnt][j] = Integer.parseInt(sc.nextLine());
@@ -32,9 +31,11 @@ public class Ex07 {
 		String		input;
 		int			menu;
 		String[]	subject = new String[]{"국어", "영어", "수학"};		
-		int[][]		score = new int[3][3];
 		String		bar = "----------------------------------\n";
+		
 		String		intro = bar+"번호\t국어\t영어\t수학\n"+bar;
+		int[][]		score = new int[3][3];
+		String		outro = ""+bar;
 		
 		System.out.println("학생성적관리프로그램(ver 0.2.0)\n");
 		
@@ -51,7 +52,7 @@ public class Ex07 {
 				}
 				score = inputScore(score, subject);
 			} else if (menu==2) {
-				showScore(intro, score, bar);
+				showScore(intro, score, outro);
 			}
 			System.out.println();
 		} while (menu != 0);

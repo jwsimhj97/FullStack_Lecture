@@ -1,0 +1,11 @@
+package com.rom802;
+
+class Ex33 {
+	int a=1111;
+}
+
+public class Ex03 {
+	public static void main(String[] args) {
+		
+	}
+}
