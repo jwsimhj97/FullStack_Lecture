@@ -12,7 +12,6 @@ public class Ex10 {
 		msg1="문자열";					// msh1은 "문자열"이라는 객체의 주소를 받았다.
 		System.out.println(msg1);
 		msg1=new String("java");
-		msg1 = new String("");
 		System.out.println(msg1);  // null이 아니라 빈 문자열이 나왔다
 		
 		String msg2=new String("java");
