@@ -1,0 +1,29 @@
+package com.rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		// 문자열 String
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		
+//		String msg1;
+//		msg1="java";					// msg1은 주소를 받는건데 "java"라는 객체의 주소를 받았다
+//		System.out.println(msg1);
+//		msg1="문자열";					// msh1은 "문자열"이라는 객체의 주소를 받았다.
+//		System.out.println(msg1);
+//		msg1=new String("java");
+//		System.out.println(msg1);  // null이 아니라 빈 문자열이 나왔다
+//		
+//		String msg2=new String("java");
+//		System.out.println(msg1==msg2);
+//		
+//		String msg3="java";
+//		String msg4="java";
+//		System.out.println(msg3==msg4);
+//		
+//		String msg5=sc.nextLine();
+//		System.out.println(msg3==msg5);
+		
+		System.out.println("java1"=="java"+1);
+	}
+}

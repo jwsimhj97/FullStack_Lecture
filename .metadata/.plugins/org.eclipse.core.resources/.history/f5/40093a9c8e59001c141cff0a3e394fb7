@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		// ±Ì¿∫ ∫πªÁ
+		int[] arr1 = {1,3,5,7};
+		int[] arr2;
+		
+		arr2=new int[arr1.length];
+	}
+
+}

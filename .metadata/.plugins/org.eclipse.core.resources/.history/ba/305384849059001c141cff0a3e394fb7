@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		// ¹®ÀÚ¿­ String
+		String msg1;
+		msg1="java";
+		System.out.println(msg1);
+		
+	}
+
+}
