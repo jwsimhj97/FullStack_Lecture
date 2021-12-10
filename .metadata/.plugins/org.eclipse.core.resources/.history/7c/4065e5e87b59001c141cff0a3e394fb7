@@ -1,0 +1,19 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public int su;
+	public int su3=4321;
+	
+	public Ex04(int su2) {
+		System.out.println(su);
+		su=su2;
+	}
+	
+	public static void main(String[] args) {
+		Ex04 me=new Ex04(1234);
+		System.out.println(me.su);
+		System.out.println(me.su3);
+	}
+
+}

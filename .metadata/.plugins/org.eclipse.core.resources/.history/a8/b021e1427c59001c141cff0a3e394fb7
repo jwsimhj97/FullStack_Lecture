@@ -1,0 +1,23 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public int su;
+	public final int su3=4321;
+	
+	public Ex04(int su2) {
+		System.out.println(su);
+		su=su2;
+	}
+	
+	public static void main(String[] args) {
+		final int su4;	// 변수의 선언 (상수형 변수)
+		su4=4444;		// 변수의 초기화
+		su4=5555;		// 값을 바꾸려고 하면 안바뀜 (final을 값을 바꾸지 못하는 변수를 만드는 키워드)
+		
+		Ex04 me=new Ex04(1234);
+		System.out.println(me.su);
+		System.out.println(me.su3);
+	}
+
+}

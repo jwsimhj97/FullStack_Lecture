@@ -1,0 +1,16 @@
+package com.rom802;
+
+public class Ex04 {
+
+	public int su;
+	public int su3=4321;
+	
+	public Ex04(int su2) {
+		su=su2;
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

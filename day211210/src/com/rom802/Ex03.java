@@ -3,6 +3,10 @@ package com.rom802;
 class Ex33 {
 	int a=1111;
 //	public Ex33() {}	// 생성자를 만들지 않을 때는, 이런 default 생성자가 숨어 있음 (만들면 얘는 안생김)
+	
+	public static void sum(int a, int b) {
+		int c = a+b;
+	}
 }
 
 class Ex333 {		// 생성자가 없어도 자동으로 있다 (default 생성자)
@@ -29,6 +33,10 @@ public class Ex03 {
 		sc=new java.util.Scanner(is);		// 얘도 우리가 쓰고 있었지만 사실은 생성자였다...!
 		
 		Ex33 ex33 = new Ex33();
+		Ex33 ex34 = new Ex33();
+		Ex33 ex35 = new Ex33();
+		Ex33 ex36 = new Ex33();
+		Ex33 ex37 = new Ex33();
 		
 //		Ex333 ex333 = new Ex333();		// 참조 변수를 만들 때 이런 식으로 했는데...
 		Ex333 ex333;	// 참조 변수의 default 값은 null
