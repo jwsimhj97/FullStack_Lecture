@@ -1,0 +1,17 @@
+package com.rom802;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		
+		System.out.println("切积 己利 包府 橇肺弊伐");
+		
+		while (true) {
+			;
+		}
+		
+		System.out.println("--------------------------");
+	}
+
+}

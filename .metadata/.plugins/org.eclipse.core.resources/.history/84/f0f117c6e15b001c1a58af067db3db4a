@@ -1,0 +1,92 @@
+package com.rom802;
+
+class Car {
+	public String color;
+	public final String name;
+	public int speed;
+	public int max;
+	
+	public Car(int mod){
+		if(mod==1){
+			color="";
+			name="¸ð´×";
+			max=120;
+		}else if(mod==2){
+			color="";
+			name="k3";
+			max=150;
+		}else if(mod==3){
+			color="";
+			name="k5";
+			max=180;
+		}else{
+			color="";
+			name="ºØºØÀÌ";
+			max=100;
+		}
+	}
+	
+	public Car(String a, int b){
+		color="";
+		name=a;
+		max=b;
+	}
+	
+	public Car(String a, String b, int c){
+		this.color = a;
+		this.name = b;
+		this.max = c;
+	}
+	
+	public void speedUp(){
+		if (speed+10>max){
+			speed=max;
+		}else{
+			speed+=10;
+		}
+	}
+	public void speedDown(){
+		if(speed-10<0){
+			speed=0;
+		}else{
+			speed-=10;
+		}
+	}
+	public void speedShow(){
+		System.out.println(color+" "+name+"ÀÇ ¼Óµµ´Â"+speed+"km ÀÔ´Ï´Ù");
+	}
+}
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		Car mycar=new Car("", "¸ð´×", 120);
+//		Car mycar=new Car("¸ð´×", 120);	// »ý¼ºÀÚ ¿À¹ö·ÎµùÀ» ÅëÇØ ÀÌ °´Ã¼µµ »ý¼º °¡´É
+		mycar.color="»¡°­»ö";
+		mycar.max=120;
+		mycar.speedShow();
+		for(int i=0; i<20; i++) {
+			mycar.speedUp();
+			mycar.speedShow();
+		}
+		mycar.color="³ë¶û»ö";
+		for(int i=0; i<20; i++) {
+			mycar.speedDown();
+			mycar.speedShow();
+		}
+		
+		
+		mycar=new Car("Áã»ö","k3",150);
+		mycar.max=180;
+		mycar.speedShow();
+		for(int i=0; i<20; i++) {
+			mycar.speedUp();
+			mycar.speedShow();
+		}
+		for(int i=0; i<20; i++) {
+			mycar.speedDown();
+			mycar.speedShow();
+		}
+	}
+
+}

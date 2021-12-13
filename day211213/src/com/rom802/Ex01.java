@@ -2,6 +2,19 @@ package com.rom802;
 
 public class Ex01 {
 
+	public static int isNum(String str) {		// 아직 사용 안해봄
+		if (str.length() == 0) {
+			return -1;
+		}
+		char[] check = str.toCharArray();
+		for (int i=0; i<str.length(); i++) {
+			if (!(check[i] >= '0' && check[i] <= '9')) {
+				return -1;
+			}
+		}
+		return 0;
+	}
+	
 	public static void main(String[] args) {
 		// 학생성적관리프로그램 (ver 0.4.1)
 		// 총원:3
@@ -18,41 +31,32 @@ public class Ex01 {
 		int		menu;
 		int		cnt = 0;
 		
+		boolean boo = true;
 		boolean	inputCheck = false;
-		char[]	check = null;
 		
-		while (!inputCheck) {			
+		while (inputCheck == false) {		
 			System.out.print("총원 > ");
 			input = sc.nextLine();
 			check = input.toCharArray();
-			for (int i=0; i<input.length();i++) {
-				if (!(check[i] >= '0' && check[i] <= '9')) {
-					System.out.println("숫자만 입력해주세요");
-					break;
-				}
+			inputCheck = true;
+			if (isNum(input)== -1) {
+				System.out.println("숫자만 입력해주세요");
+				inputCheck = false;
+				continue;
 			}
 		}
-		
 		num = Integer.parseInt(input);
 		
 		int[] kor = new int[num];
 		int[] eng = new int[num];
 		int[] math = new int[num];
 		
-		boolean boo = true;
 		
 		while (boo) {
 			inputCheck = true;
 			System.out.print("1.입력 2.보기 0.종료 >");
 			input = sc.nextLine();
-			check = input.toCharArray();
-			for (int i=0; i<input.length();i++) {
-				if (!(check[i] >= '0' && check[i] <= '9')) {
-					inputCheck = false;
-					break;
-				}
-			}
-			if (!inputCheck) {
+			if (isNum(input) == -1) {
 				System.out.println("메뉴를 보고 다시 선택해주세요");
 				continue;
 			}
