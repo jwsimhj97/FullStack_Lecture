@@ -1,0 +1,24 @@
+package com.rom802;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// 학생성적관리프로그램 (ver 0.4.1)
+		// 총원:3
+		// 1. 입력 2. 보기 0. 종료 >
+		////
+		// 1. 입력 2. 보기 0. 종료 >a  // 1, 2, 0이 아닌 다른 문자열을 입력했을 때 (입력 받은 것을 먼저 검사하고)
+		// 메뉴를 보시고 다시 선택해주세요
+		/// 
+		
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		
+		int num;
+		
+		
+		System.out.print("총원 > ");
+		sc.nextLine();
+		
+		int[] kor = new int[n];
+	}
+}
