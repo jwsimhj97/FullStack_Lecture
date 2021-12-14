@@ -1,0 +1,31 @@
+package rom802;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		// 주민벙호 확인
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		String input=null;
+		System.out.print("주민번호>");
+		input="991231-2123456";	//"020501-3123456";	//		input=sc.nextLine();
+		char[] arr=input.toCharArray();	//먼저 입력을 받아서 char배열을 만들고
+		char[] arr2=new char[]{'2','0',arr[0],arr[1]};	// 주민 번호 앞의 두 자리를 받아서
+		if(arr[7]<=(int)'2'){
+			arr2[0]='1';
+			arr2[1]='9';
+		}	
+		// 인식하기에는 편리한데 코드차원에서는 불편할 수도
+		// 문자열 받고, 문자 배열로 변환, 수정
+		
+		String year=new String(arr2);
+		int su=Integer.parseInt(year);
+		System.out.print("당신은 ");
+		System.out.print(2021-su+1);
+		System.out.print("세 ");
+		
+		System.out.print("남");
+		
+		System.out.println("성입니다");
+	}
+
+}

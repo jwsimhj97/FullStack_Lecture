@@ -1,0 +1,12 @@
+package rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		System.out.println("切积己利包府橇肺弊伐(ver 0.5.0)");
+		
+		System.out.println();
+	}
+
+}

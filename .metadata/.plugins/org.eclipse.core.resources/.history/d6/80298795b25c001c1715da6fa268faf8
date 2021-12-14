@@ -1,0 +1,18 @@
+package rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		System.out.println("학생성적관리프로그램(ver 0.5.0)");
+		String input=null;
+		System.out.print("총원>");
+		input=sc.nextLine();
+		int tot=Integer.parseInt(input);
+		String[][] data=new String[tot][];
+		While(true){
+			System.out.print("1.입력 2.보기 0.종료>");
+		}
+	}
+
+}
