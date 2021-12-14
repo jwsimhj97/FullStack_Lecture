@@ -1,0 +1,25 @@
+package rom802;
+
+public class Ex04 {
+	public int su=1111;
+	
+	public Ex04(){
+		System.out.println("su="+su);
+	}
+	public Ex04(int su){
+		this.su=su;
+		System.out.println("su="+this.su);
+	}
+	
+	public Ex04(Ex04 me){
+		System.out.println("su="+me.su);
+	}
+	
+	public static void main(String[] args) {
+		// 생성자에서의 this
+		Ex04 me=new Ex04();
+		Ex04 me2=new Ex04(2222);
+		Ex04 me3=new Ex04(me3);
+	}
+
+}

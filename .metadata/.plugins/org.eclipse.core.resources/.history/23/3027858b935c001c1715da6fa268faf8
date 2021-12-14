@@ -1,0 +1,46 @@
+package rom802;
+
+public class Ex07 {
+
+	public static int inputNum(){
+		String input;
+		int num;
+		
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		input=sc.nextLine();
+		num=Integer.parseInt(input);
+		return num;
+	}
+	
+	public static void main(String[] args) {
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		System.out.println("학생성적관리프로그램 (ver 0.5.0)");
+		
+		int tot;
+		
+		System.out.print("총원>");
+		tot = inputNum();
+		int subjectNum = 3;
+		boolean boo = true;
+		int cnt = 0;
+		
+		int[][] score = new int[tot][subjectNum];
+		
+		
+		
+		
+		
+	}
+}
+
+
+
+// 학생성적관리프로그램(ver 0.5.0)
+// 총원>3
+// 1.입력 2.보기 0.종료>1
+// 학번>
+// 이름>
+// 국어>
+// 영어>
+// 수학>
+// 1.입력 2.보기 0.종료>1

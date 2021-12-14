@@ -1,0 +1,15 @@
+package rom802;
+
+public class Ex04 {
+	public Ex04(){
+		
+	}
+	public Ex04(int su){
+		
+	}
+	
+	public static void main(String[] args) {
+		// 생성자에서의 this
+	}
+
+}
