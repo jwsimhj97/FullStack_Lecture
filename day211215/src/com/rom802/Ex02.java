@@ -11,7 +11,7 @@ public class Ex02 {
 		String result=msg.concat("ABCD"); // msg+"ABCD"
 		System.out.println(result);
 		
-		System.out.println(msg.indexOf('c'));
+		System.out.println(msg.indexOf("(123)"));
 		System.out.println(msg.indexOf('a'));	// 인덱스 리턴해줌
 		System.out.println(msg.indexOf('j'));	// 없으면 -1 리턴
 		
@@ -52,6 +52,21 @@ public class Ex02 {
 		System.out.println(msg.toString()+" toString");
 		
 		System.out.println(String.valueOf(new char[]{'a','b'}));
-	}
+		
+		String a="abcd";
+		String b=a.toString();
+		String c=a.toString();
+		String d=new String("abcd");
 
+		System.out.println(a.hashCode());
+		System.out.println(b.hashCode());
+		b+="aa";
+		System.out.println(b);
+		System.out.println(b.hashCode());
+		System.out.println(c);
+		System.out.println(c.hashCode());
+		System.out.println("abcd".hashCode());
+		System.out.println(d.hashCode());
+	}
+	
 }

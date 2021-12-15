@@ -18,6 +18,11 @@ public class Ex04 {
 		// 같은지 다른지, 얼마나 다른지 알 수 있다 (문자열 비교에서 개발자들이 선호함)
 		System.out.println(func(msg1,msg2));
 		
+		
+		String[] abc = "\n\n\n\n.\n\n\n\n\n".split("\n");
+		System.out.println("split "+abc.length);
+		
+		
 	}
 	
 	public static int func(String a, String b){
