@@ -1,0 +1,20 @@
+package com.rom802;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		String msg1="abcd";
+		String msg2="abcdeabcdef";
+		String msg3="";
+		
+		System.out.println(msg1.contains("bc"));
+		System.out.println(msg1.startsWith("ab"));
+		System.out.println(msg1.endsWith("cde"));
+		
+		System.out.println(msg3.length()==0);
+		System.out.println(msg3.isEmpty());
+		
+		System.out.println(msg2.lastIndexOf("dea",3));  // -1이 나올 때까지 indexOf를 계속 호출하는 원리
+	}
+
+}
