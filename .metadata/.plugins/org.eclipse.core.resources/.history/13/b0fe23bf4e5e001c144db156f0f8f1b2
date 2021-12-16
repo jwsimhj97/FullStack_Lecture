@@ -1,0 +1,14 @@
+package rom802;
+
+public class Ex13 {
+
+	public static void main(String[] args) {
+		String[] msg={"0","1","2","3"};
+		
+		for(int i=0; i<msg.length; i++){
+			int su=Integer.parseInt(msg[i]);
+			System.out.println(su+1);
+		}
+	}
+
+}

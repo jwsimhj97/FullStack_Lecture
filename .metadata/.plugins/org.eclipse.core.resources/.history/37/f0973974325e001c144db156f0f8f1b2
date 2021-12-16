@@ -1,0 +1,16 @@
+package rom802;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		for(int i=0; i<10; i++){
+			if(i>4){		// 이 코드에서는 결과가 다 비슷하지만
+//				return;
+//				continue;
+//				break;
+			}
+			System.out.println(i);
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.test;
+
+public class Ex10 {		// 패키지 이름이 다르기 때문에 동일 클래스명 허용
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package rom802;
+
+public class Ex08 {
+	public final static int su1=1111;
+	public final int su2;
+	
+	public Ex08(){
+		su2=2222;
+		su2=3333;
+	}
+	
+	public static void main(String[] args) {
+		// final
+		final int a;
+		a=1111;
+//		a=2222;
+		
+//		su1=2222;
+	}
+
+}

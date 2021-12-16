@@ -1,0 +1,20 @@
+package rom802;
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		String[] msg={"java","web","DB","framework"};
+		
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		
+		System.out.print("idx >");
+		String input=sc.nextLine();
+		try{
+		int idx=Integer.parseInt(input);
+		}catch(java.lang.ArrayIndexOutOfBoundsException outBound){
+			System.out.println("없는 인덱스");
+		}
+		System.out.println(msg[idx]);
+	}
+
+}

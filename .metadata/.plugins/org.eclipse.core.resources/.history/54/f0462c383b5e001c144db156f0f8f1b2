@@ -1,0 +1,10 @@
+package rom802;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		Ex09 me=new Ex09();
+		me.func(me);
+	}
+
+}

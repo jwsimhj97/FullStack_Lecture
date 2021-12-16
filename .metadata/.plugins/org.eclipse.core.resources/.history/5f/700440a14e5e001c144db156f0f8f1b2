@@ -1,0 +1,9 @@
+package rom802;
+
+public class Ex13 {
+
+	public static void main(String[] args) {
+		String[] msg={"0","1","ตั","3"};
+	}
+
+}

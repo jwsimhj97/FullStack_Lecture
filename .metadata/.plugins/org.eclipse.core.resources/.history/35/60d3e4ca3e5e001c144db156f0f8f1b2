@@ -1,0 +1,28 @@
+package rom802;
+
+class Lec10{
+	public static int su1=1111;
+	static int su2=2222;				// 안 붙으있으면 default라고 함
+	private static int su3=3333;		// 해당 클래스 내부에서만 사용 가능
+	
+	public static void func(){
+		System.out.println(su3);
+	}
+}
+public class Ex10 {
+
+	public static void main(String[] args) {
+		System.out.println(Lec10.su1);
+		System.out.println(Lec10.su2);
+//		System.out.println(Lec10.su3);
+		Lec10.func();
+		
+		System.out.println("-----------------------");
+		System.out.println(com.test.Ex10.su1);
+//		System.out.println(com.test.Ex10.su2);
+//		System.out.println(com.test.Ex10.su3);
+		
+		com.bit.Ex10 new = new com.bit.Ex10();
+	}
+
+}
