@@ -1,0 +1,32 @@
+package rom802;
+
+class Lec06{
+	public int su=1111;
+	
+	public Lec06(){
+		
+	}
+	public void func(){
+		System.out.println("부모클래스의 기능");
+	}
+}
+
+public class Ex06 extends Lec06{
+	public int su=2222;
+	
+	public Ex06(){
+		
+	}
+	public void func(){
+		super.func();
+		System.out.println("자식클래스의 기능 "+super.su);
+	}
+	
+	public static void main(String[] args) {
+		Ex06 me = new Ex06();
+		me.func();
+		
+		
+	}
+
+}
