@@ -1,0 +1,51 @@
+package rom802;
+
+class Tv{
+	public void on(){
+		System.out.println("켜다");
+	}
+	public void off(){
+		System.out.println("끄다");
+	}
+	public void work(){
+		System.out.println("영상을 보여준다");
+	}
+}
+
+
+class Radio{
+	public void on(){
+		System.out.println("켜다");
+	}
+	public void off(){
+		System.out.println("끄다");
+	}
+	public void work(){
+		System.out.println("주파수를 잡아서 소리를 들려준다");
+	}
+}
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		
+
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		System.out.print("1.tv 2.radio >");
+		String input=sc.nextLine();
+		if(input.equals("1")){
+			Tv tv=new Tv();
+			tv.on();
+			tv.work();
+			tv.off();
+		}else if(input.equals("2")){	// 켜고 일하고 끄는 동작이 동시에
+			Radio ra=new Radio();
+			ra.on();
+			ra.work();
+			ra.off();
+		}
+		
+	}
+
+}

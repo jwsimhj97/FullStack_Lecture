@@ -1,0 +1,38 @@
+package rom802;
+
+
+class Lec01{						// 부모클래스(super class)
+	public static int su1=1111;
+	public int su2=2222;
+	
+	public static void func01(){
+		System.out.println("Lec01 static func01()...");
+	}
+	public void func02(){
+		System.out.println("Lec01 non-static func02()...");
+	}
+	
+	
+}
+
+
+
+
+public class Ex01 extends Lec01{		// 자식클래스()
+
+	public static void main(String[] args) {
+		// 상속
+		Lec01 you=new Lec01();
+		you.func02();
+//		you.func03();	// 안됨
+		
+		Ex01 me=new Ex01();
+		me.func02();
+		
+
+	}
+	
+	void func03(){
+		
+	}
+}

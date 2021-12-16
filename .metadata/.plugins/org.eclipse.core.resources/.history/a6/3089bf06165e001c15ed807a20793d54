@@ -1,0 +1,12 @@
+package rom802;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		Ex03 me = new Ex03();
+		System.out.println(me);
+		System.out.println(me.toString());
+		System.out.println(me.hashCode());
+	}
+
+}

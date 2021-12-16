@@ -1,0 +1,33 @@
+package rom802;
+
+
+class Lec01{
+	public static int su1=1111;
+	public int su2=2222;
+	
+	public static void func01(){
+		System.out.println("Lec01 static func01()...");
+	}
+	public void func02(){
+		System.out.println("Lec01 non-static func02()...");
+	}
+	
+	
+}
+
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// »ó¼Ó
+		Lec01 you=new Lec01();
+		you.func02();
+		
+		Ex01 me=new Ex01();
+		me.func02();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package rom802;
+
+class Lec02{
+	public int su1=1111;
+	
+	public void func01(){
+		System.out.println("ºÎ¸ð");
+	}
+}
+
+public class Ex02 extends Lec02{
+
+	public static void main(String[] args) {
+		Ex02 me=new Ex02();
+		System.out.println(me.su1);
+		me.func01();
+	}
+
+}

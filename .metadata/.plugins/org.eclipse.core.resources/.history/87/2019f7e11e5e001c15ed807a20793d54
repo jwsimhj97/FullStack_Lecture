@@ -1,0 +1,52 @@
+package rom802;
+
+class Tv{
+	public void on(){
+		System.out.println("켜다");
+	}
+	public void off(){
+		System.out.println("끄다");
+	}
+	public void work(){
+		System.out.println("영상을 보여준다");
+	}
+}
+
+
+class Radio{
+	public void on(){
+		System.out.println("켜다");
+	}
+	public void off(){
+		System.out.println("끄다");
+	}
+	public void work(){
+		System.out.println("주파수를 잡아서 소리를 들려준다");
+	}
+}
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		
+		
+
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		System.out.print("1.tv 2.radio >");
+		String input=sc.nextLine();
+		
+		Object remote;		// 2. 밖에서 선언하면 되는데 문제는 타입이 다르다 
+							// 3. 만약 Object 타입으로 선언하면 이 부분이 해결됨
+		if(input.equals("1")){
+			remote=new Tv();
+		}else if(input.equals("2")){	// 1. 켜고 일하고 끄는 동작이 동시에 있으니까 밖으로 빼고 싶은데
+			remote=new Radio();
+		}
+		remote.on();		// 4. 그런데 Object 클래스에는 이 메서드들이 없다 / 그러면 그 클래스를 만들면 되겠지
+		remote.work();
+		remote.off();
+		
+	}
+
+}

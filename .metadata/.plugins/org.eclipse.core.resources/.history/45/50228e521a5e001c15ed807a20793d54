@@ -1,0 +1,29 @@
+package rom802;
+
+class Lec04{
+	public int su1=1111;
+	
+	public void func01(){
+		System.out.println("부모클래스의 기능1");
+	}
+}
+public class Ex04 {
+	public int su1=2222;
+	public int su2=3333;
+	
+	public void func01(){
+		System.out.println("자식클래스의 기능1");
+	}
+	public void func02(){
+		System.out.println("자식클래스의 기능2");
+	}
+	
+	public static void main(String[] args) {
+		// 다형성
+		Lec04 var1=new Lec04();
+		System.out.println(var1.su1);
+		var1.func01();
+
+	}
+
+}
