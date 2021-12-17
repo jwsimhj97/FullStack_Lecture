@@ -9,22 +9,34 @@ public class Ex01 {
 		int		result[]=new int[ROTTO];
 		int		num = 0;
 		int		cnt = 0;
-		boolean boo;
 		
 		
 		for(int i=0; i<ROTTO; i++){
-			boo=true;
+			int j=0;
 			num = (int)(Math.random()*45)+1;
-			for(int j=0; j<cnt; j++){
+			while(j<cnt){
 				if(num==result[j]){
-					boo=false;
+					num = (int)(Math.random()*45)+1;
+					j=0;
+					continue;
+				}
+				j++;
+			}
+			result[i]=num;
+			cnt++;
+		}
+		
+		int temp;
+		for(int i=0; i<ROTTO; i++){
+			for(int j=0; j<ROTTO-i-1; j++){
+				if(result[j] > result[j+1]){
+					temp=result[j];
+					result[j]=result[i];
+					result[i]=temp;
 				}
 			}
-			if (boo){				
-				result[i]=num;
-				cnt++;
-			}
 		}
+
 		for(int i=0; i<ROTTO; i++){
 			System.out.print(result[i]+" ");			
 		}

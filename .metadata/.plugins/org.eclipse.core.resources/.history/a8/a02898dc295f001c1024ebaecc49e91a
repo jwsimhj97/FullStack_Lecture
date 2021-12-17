@@ -5,28 +5,36 @@ public class Ex01 {
 	public static void main(String[] args) {
 		System.out.println("로또 번호 생성기(ver 0.0.1)\n");
 		
-		final int ROTTO=6;
+		final int ROTTO=45;
 		int		result[]=new int[ROTTO];
 		int		num = 0;
 		int		cnt = 0;
-		boolean boo;
 		
 		
-		for(int i=0; i<6; i++){
-			boo=true;
+		for(int i=0; i<ROTTO; i++){
+			int j=0;
 			num = (int)(Math.random()*45)+1;
-			for(int j=0; j<cnt; j++){
+			while(j<cnt){
 				if(num==result[j]){
-					boo=false;
+					num = (int)(Math.random()*45)+1;
+					j=0;
+					continue;
 				}
+				j++;
 			}
-			if (boo){				
-				result[i]=num;
-				cnt++;
-			}
+			result[i]=num;
+			cnt++;
 		}
-		for(int i=0; i<6; i++){
+		for(int i=0; i<ROTTO; i++){
 			System.out.print(result[i]+" ");			
+		}
+		
+		// 정렬 해야 함
+		int temp;
+		for(int i=0; i<ROTTO; i++){
+			for(int j=i; j<ROTTO; j++){
+				if()
+			}
 		}
 	}
 

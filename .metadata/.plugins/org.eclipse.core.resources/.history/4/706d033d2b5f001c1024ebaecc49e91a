@@ -19,7 +19,7 @@ public class Ex01 {
 				if(num==result[j]){
 					num = (int)(Math.random()*45)+1;
 					j=0;
-					continue;
+					break;
 				}
 				j++;
 			}
