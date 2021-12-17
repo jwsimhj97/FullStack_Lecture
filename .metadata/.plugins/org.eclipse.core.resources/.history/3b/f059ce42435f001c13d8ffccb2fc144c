@@ -5,7 +5,7 @@ public class Ex01 {
 	public static void main(String[] args) {
 		System.out.println("로또 번호 생성기(ver 0.0.1)");
 		
-		final int	DRAW_NUM=6;
+		final int	DRAW_NUM=45;
 		int			lotto[]=new int[DRAW_NUM];
 		int			num = 0;
 		int			cnt = 0;
@@ -24,14 +24,14 @@ public class Ex01 {
 			num = (int)(Math.random()*45)+1;	// 1. 숫자를 뽑아서
 			
 			while(j<cnt){						// 2. 중복 검사를 하고 
+				num = (int)(Math.random()*45)+1;
 				if(num==lotto[j]){
-					num = (int)(Math.random()*45)+1;
-					j=0;		
+					j=0;
 					continue;
 				}
 				j++;
 			}
-
+			
 			lotto[i]=num;		// 3. 로또 배열에 넣는다
 			cnt++;
 		}

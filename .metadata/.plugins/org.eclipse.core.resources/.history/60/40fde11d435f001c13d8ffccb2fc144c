@@ -10,12 +10,13 @@ public class Ex01 {
 		int			num = 0;
 		int			cnt = 0;
 		
-//		코드 구조
-//		(6번 뽑을 거야){
-//			(중복 검사 할거야){
-//				
-//			}
-//		}
+		
+		(6번 뽑을 거야){
+			
+			(중복 검사 할거야){
+				
+			}
+		}
 		
 		
 		// 중복 없이 뽑기
@@ -26,12 +27,12 @@ public class Ex01 {
 			while(j<cnt){						// 2. 중복 검사를 하고 
 				if(num==lotto[j]){
 					num = (int)(Math.random()*45)+1;
-					j=0;		
+					j=0;
 					continue;
 				}
 				j++;
 			}
-
+			
 			lotto[i]=num;		// 3. 로또 배열에 넣는다
 			cnt++;
 		}

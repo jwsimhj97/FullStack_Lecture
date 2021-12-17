@@ -31,7 +31,7 @@ public class Ex01 {
 				}
 				j++;
 			}
-
+			
 			lotto[i]=num;		// 3. 로또 배열에 넣는다
 			cnt++;
 		}
