@@ -28,6 +28,7 @@ public class Ex01_2_2 {
 		for(int i=0; i<DRAW_NUM; i++){				// 3. Ãâ·Â
 			System.out.print(lotto[i]+" ");
 		}
+		
 	}
 
 }

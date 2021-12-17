@@ -1,0 +1,15 @@
+package com.rom802;
+
+public class Ex01_3 {
+
+	public static void main(String[] args) {
+		final int LOTTO_POOL=45;
+		int[] lotto=new int[LOTTO_POOL];
+		
+		for(int i=0; i<LOTTO_POOL; i++){
+			
+		}
+
+	}
+
+}

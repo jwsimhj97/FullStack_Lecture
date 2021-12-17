@@ -1,0 +1,10 @@
+package com.rom802;
+
+public class Ex01_3 {
+
+	public static void main(String[] args) {
+		final int LOTTO_POOL=45;
+
+	}
+
+}
