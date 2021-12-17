@@ -27,7 +27,8 @@ public class Ex01_2 {
 			}
 		}
 		
-		for(int i=0; i<DRAW_NUM; i++){				// 3. 출력
+		// 출력
+		for(int i=0; i<DRAW_NUM; i++){
 			System.out.print(lotto[i]+" ");
 		}
 		
