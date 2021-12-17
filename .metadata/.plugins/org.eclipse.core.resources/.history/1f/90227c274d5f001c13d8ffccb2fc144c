@@ -23,8 +23,7 @@ public class Ex01_3 {
 		for(int i=0; i<DRAW_NUM; i++){			
 			System.out.print(lotto[i]+" ");
 		}
-		
-		// 아직 정렬 처리 안됨
+
 	}
 
 }
