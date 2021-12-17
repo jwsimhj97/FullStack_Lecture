@@ -1,0 +1,23 @@
+package com.rom802;
+
+public class Ex01_2 {
+
+	public static void main(String[] args) {
+		
+//		코드 구조
+//		(중복 검사 할 거야){
+//			(6개 전부 뽑아 놓고){
+//				
+//			}
+//		}
+
+		boolean isError=true;
+		
+		while(isError){
+			isError=false;
+			
+		}
+		
+	}
+
+}
