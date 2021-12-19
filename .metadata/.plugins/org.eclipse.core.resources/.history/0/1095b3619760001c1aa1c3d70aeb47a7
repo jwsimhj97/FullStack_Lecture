@@ -1,0 +1,18 @@
+package com.rom802;
+
+// ΩÃ±€≈Ê
+public class LottoMachine{
+	private static LottoMachine machine=new LottoMachine();
+	private int[] lotto;
+	private int	 ran;
+	
+	private LottoMachine(){
+		lotto=new int[46];
+	}
+	private void zeroLotto(){
+		
+	}
+	public int getNumber(){
+	}
+	
+}

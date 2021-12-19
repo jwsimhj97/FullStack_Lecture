@@ -1,5 +1,7 @@
 package com.rom802;
 
+// Á¤·Äx
+
 public class Ex01_2_1 {
 
 	public static void main(String[] args) {

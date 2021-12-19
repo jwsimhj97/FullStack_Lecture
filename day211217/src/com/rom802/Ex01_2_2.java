@@ -1,5 +1,7 @@
 package com.rom802;
 
+// Á¤·Ä x
+
 public class Ex01_2_2 {
 	
 	final static int DUP_DETECTED=-1;

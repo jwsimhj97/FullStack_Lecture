@@ -1,0 +1,13 @@
+package com.rom802;
+
+// '중복 검사'와 '정렬'을 같은 반복문에서 처리
+
+public class Ex01_1_1_2 {
+
+	public static void main(String[] args) {
+		
+		int[] lotto=new int[6];
+
+	}
+
+}

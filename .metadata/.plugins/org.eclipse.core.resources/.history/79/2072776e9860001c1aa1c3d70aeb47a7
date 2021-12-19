@@ -1,0 +1,34 @@
+package com.rom802;
+
+// ΩÃ±€≈Ê
+public class LottoMachine{
+	private static LottoMachine machine=new LottoMachine();
+	private int[] lotto;
+	private int	 ran;
+	
+	private LottoMachine(){
+		lotto=new int[46];
+	}
+	public static LottoMachine getInstance(){
+		return machine;
+	}
+	private void initLotto(){
+		for(int i=0; i<46; i++){
+			lotto[i]=0;
+		}
+	}
+	public void showNumbers(){
+		initLotto();
+		System.out.println("∑Œ∂« π¯»£ ª˝º∫±‚ (ver 0.1.0)");
+		for(int i=0; i<46; i++){
+			if(lotto[i]!=0){
+				System.out.print(lotto[i]+" ");
+			}
+		}
+	}
+	
+	public static void main(String[] args){
+		LottoMachine machine=LottoMachine.getInstance();
+	}
+	
+}

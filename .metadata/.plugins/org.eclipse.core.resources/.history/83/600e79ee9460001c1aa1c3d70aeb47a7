@@ -1,0 +1,11 @@
+package com.rom802;
+
+public class Ex01_3_2 {
+
+	public static void main(String[] args) {
+		final int DRAW_NUM=6;
+		int[] lotto=new int[45];
+
+	}
+
+}
