@@ -6,7 +6,10 @@ class ResidentNumException extends Exception{
 	}
 }
 
+
 public class Ex13 {
+
+	
 	
 	public static void main(String[] args) {
 		// 주민번호 확인(ver 0.2.0)
@@ -60,7 +63,10 @@ public class Ex13 {
 					throw ex;
 				}
 				
+				
 				// 해석
+				
+				
 				year+=Integer.parseInt(num1.substring(0,2));
 				if(gender=='3' || gender=='4'){
 					year+=100;
@@ -72,12 +78,12 @@ public class Ex13 {
 			}catch(ResidentNumException aa){
 				System.out.println(aa.getMessage());
 				boo=true;
-			}
-			catch(java.lang.StringIndexOutOfBoundsException e){
-				System.out.println("입력값을 다시 확인해주세요");
+			}catch(java.lang.StringIndexOutOfBoundsException e){
 				boo=true;
 			}
 		}
-		System.out.println("프로그램 종료");
+		
 	}
+
+	
 }
