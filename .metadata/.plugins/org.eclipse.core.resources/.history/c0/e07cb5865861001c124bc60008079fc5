@@ -1,0 +1,26 @@
+package com.rom802;
+
+public class Ex07 {
+
+	public static void func01(int a){
+		String[] arr={"a", "ab", "abc", "abcd"};
+		Exception ex=new Exception();
+		try{
+			if(a>-1){throw ex;}
+			System.out.println(arr[a]);
+		}catch(Exception e){
+			System.out.println("에러 회피in");
+		}
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("main start");
+		try{
+			func01(3);			
+		}catch(java.lang.ArrayIndexOutOfBoundsException e){
+			System.out.println("에러회피out");
+		}
+		System.out.println("main end");
+	}
+
+}

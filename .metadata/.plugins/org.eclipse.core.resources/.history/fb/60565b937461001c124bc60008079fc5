@@ -1,0 +1,41 @@
+package com.rom802;
+
+public class Ex13 {
+
+	
+	
+	public static void main(String[] args) {
+		// 주민번호 확인(ver 0.2.0)
+		//123456-1234567
+		System.out.println("주민번호 확인(ver0.2.0)");
+		System.out.print("주민번호를 입력해주세요(123456-1234567) >");
+		
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		
+		String input=sc.nextLine();
+		String gender;
+		int year=1900;
+		int age=0;
+		
+		String num1=input.substring(0,6);
+		String num2=input.substring(7,14);
+		
+		if(num2.charAt(0)=='1' || num2.charAt(0)=='3'){
+			gender="남";
+		}else{
+			gender="여";
+		}
+		
+		year+=Integer.parseInt(num1.substring(0,2));
+		if(num2.charAt(0)=='3' || num2.charAt(0)=='4'){
+			year+=100;
+		}
+		age=2021-year+1;
+			
+		
+		
+		
+		System.out.println(age+"살 "+gender+"성입니다");
+	}
+
+}

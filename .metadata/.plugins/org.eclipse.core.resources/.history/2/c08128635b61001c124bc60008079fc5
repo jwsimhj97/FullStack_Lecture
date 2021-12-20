@@ -1,0 +1,15 @@
+package com.rom802;
+
+public class Ex08 {
+
+	static void func(int a, int b){
+		int c=a/b;
+		System.out.println(a+"/"+b+"="+c);
+	}
+	
+	public static void main(String[] args) {
+		// 근데 만약 우리한테는 1로 나누는 상황이 에러라면
+		func(6,2);
+	}
+
+}

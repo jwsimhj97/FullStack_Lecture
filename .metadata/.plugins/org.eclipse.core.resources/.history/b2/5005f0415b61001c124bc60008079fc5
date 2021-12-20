@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex08 {
+
+	static void func(int a, int b){
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

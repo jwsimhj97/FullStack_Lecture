@@ -1,0 +1,14 @@
+package com.rom802;
+
+public class Ex07 {
+
+	public static void func01(int a){
+		String[] arr={"a", "ab", "abc", "abcd"};
+		System.out.println(arr[a]);
+	}
+	
+	public static void main(String[] args) {
+		System.out.println();
+	}
+
+}

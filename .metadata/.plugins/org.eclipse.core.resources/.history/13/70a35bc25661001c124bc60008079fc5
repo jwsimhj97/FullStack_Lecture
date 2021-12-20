@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex07 {
+
+	public static void func01(int a){
+		String[] arr={};
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

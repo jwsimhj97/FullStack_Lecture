@@ -1,0 +1,22 @@
+package com.rom802;
+
+public class Ex07 {
+
+	public static void func01(int a) throws ArrayIndexOutOfBoundsException, NumberFormatException{
+		String[] arr={"a", "ab", "abc", "abcd"};
+		Exception ex=new Exception();
+		try{
+			if(a>3){throw ex;}
+			System.out.println(arr[a]);
+		}catch(Exception e){
+			System.out.println();
+		}
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("main start");
+		func01(4);
+		System.out.println("main end");
+	}
+
+}

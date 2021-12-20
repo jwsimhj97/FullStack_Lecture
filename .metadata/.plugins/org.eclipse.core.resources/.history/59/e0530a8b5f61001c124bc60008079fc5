@@ -1,0 +1,14 @@
+package com.rom802;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		System.out.println("main start");
+		String[] arr={"a","ab","abc"};
+
+		System.out.println(arr[1]);
+		
+		System.out.println();
+	}
+
+}
