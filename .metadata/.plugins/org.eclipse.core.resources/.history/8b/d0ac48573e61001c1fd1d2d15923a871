@@ -1,0 +1,15 @@
+package com.rom802;
+
+interface Inter02{
+	void func01();
+}
+
+public class Ex05 implements Inter02{
+	
+	public void func01(){}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

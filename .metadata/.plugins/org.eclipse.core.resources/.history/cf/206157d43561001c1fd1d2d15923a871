@@ -1,0 +1,20 @@
+package com.rom802;
+
+class Machine{
+	void on(){
+		System.out.println("ÄÑ´Ù");
+	}
+	void off(){
+		System.out.println("²ô´Ù");
+	}
+	void work(){}
+}
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

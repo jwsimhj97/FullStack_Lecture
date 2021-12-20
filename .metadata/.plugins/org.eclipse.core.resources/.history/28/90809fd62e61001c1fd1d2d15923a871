@@ -1,0 +1,13 @@
+package com.rom802;
+
+abstract public class Ex01 {
+
+	int su=1111;
+	
+	abstract void func01();
+	
+	public static void main(String[] args) {
+
+	}
+
+}

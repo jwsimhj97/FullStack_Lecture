@@ -1,0 +1,14 @@
+package com.rom802;
+
+interface Inter01{
+	public abstract void func01();
+	public void func02();	// 추상이 아닌게 아니라 abstract가 생략되어 있는 것임 // 굳이 매 번 명세하는게 귀찮으니까
+}
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

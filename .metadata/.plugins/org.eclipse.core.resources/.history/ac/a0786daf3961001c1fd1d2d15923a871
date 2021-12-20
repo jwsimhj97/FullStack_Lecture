@@ -1,0 +1,13 @@
+package com.rom802;
+
+interface Inter01{
+	public void func01();
+}
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

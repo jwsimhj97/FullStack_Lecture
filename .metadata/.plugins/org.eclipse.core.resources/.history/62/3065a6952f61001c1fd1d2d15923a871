@@ -1,0 +1,27 @@
+package com.rom802;
+
+abstract class Lec01{
+	
+	int su=1111;
+	
+	abstract void func01();
+	void func03(){
+		System.out.println("func03 run...");
+	}
+	
+}
+
+public class Ex01 extends Lec01{
+
+	void func01(){
+		System.out.println();
+	}
+	public static void main(String[] args) {
+//		Lec01 lec=new Lec01();	추상 클래스 객체는 생성할 수 없다
+//		lec.func01();
+		
+		Ex01 me=new Ex01();
+		me.func01();
+	}
+
+}

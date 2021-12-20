@@ -1,0 +1,15 @@
+package com.rom802;
+
+class Lec03{}
+
+public class Ex03 {
+
+	public Ex03(){		// default 생성자의 접근제한자는 public이다 (경험상 다른 패키지에도 됐으니까)
+		super();
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

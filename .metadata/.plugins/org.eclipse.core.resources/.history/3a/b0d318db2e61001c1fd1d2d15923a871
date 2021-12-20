@@ -1,0 +1,18 @@
+package com.rom802;
+
+abstract class Lec01{
+	
+	int su=1111;
+	
+	abstract void func01();
+	
+}
+
+public class Ex01 {
+
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

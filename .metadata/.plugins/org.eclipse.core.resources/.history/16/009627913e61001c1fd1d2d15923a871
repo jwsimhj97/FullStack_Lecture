@@ -1,0 +1,18 @@
+package com.rom802;
+
+interface Inter02{
+	void func01();
+}
+
+public class Ex05 extends Object implements Inter02{
+	
+	public void func01(){}
+	
+	public static void main(String[] args) {
+		Ex05 me=new Ex05();
+		me.func01();
+		Inter02 you=new Ex05();
+		you.func01();
+	}
+
+}
