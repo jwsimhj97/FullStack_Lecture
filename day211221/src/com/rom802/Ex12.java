@@ -10,6 +10,7 @@ public class Ex12 {
 		System.out.println(msg.insert(3, "abc"));
 		System.out.println(msg.replace(3, 6, "123"));
 		System.out.println(msg.delete(3, 6));
+		System.out.println(msg);
 	}
 
 }

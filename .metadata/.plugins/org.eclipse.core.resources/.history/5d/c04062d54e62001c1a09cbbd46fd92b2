@@ -1,0 +1,11 @@
+package com.rom802;
+
+public class Ckibe {
+
+	public static void main(String[] args) {
+		Object ob;
+		ob.clone();
+
+	}
+
+}

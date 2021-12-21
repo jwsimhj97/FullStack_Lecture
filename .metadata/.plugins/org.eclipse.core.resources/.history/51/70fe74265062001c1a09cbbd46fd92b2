@@ -1,0 +1,17 @@
+package com.rom802;
+
+public class Clone implements Cloneable{
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		Clone cl=new Clone(1);
+		Clone a=null;
+		
+		a=(Clone)cl.clone();
+		System.out.println(a.num);
+		
+		
+		
+
+	}
+
+}
