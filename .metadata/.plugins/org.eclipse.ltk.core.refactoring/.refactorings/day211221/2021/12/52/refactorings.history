@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.rom802.window.java&apos; to &apos;Window.java&apos;&#x0D;&#x0A;- Original project: &apos;day211221&apos;&#x0D;&#x0A;- Original element: &apos;com.rom802.window.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.rom802.Window.java&apos;" description="Rename compilation unit &apos;window.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.rom802{window.java" name="Window.java" references="false" stamp="1640048297694" version="1.0"/>
+</session>

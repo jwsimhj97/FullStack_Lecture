@@ -1,0 +1,14 @@
+package com.rom802;
+
+public class window {
+
+	public Ex13(){
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

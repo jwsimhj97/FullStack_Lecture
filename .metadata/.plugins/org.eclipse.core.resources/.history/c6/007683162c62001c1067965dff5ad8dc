@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		System.out.println(Math.abs(12));
+		System.out.println(Math.abs(-12));
+		System.out.println(Math.ceil(3.14));
+		System.out.println(Math.floor(3.14));
+		System.out.println(0l);
+	}
+
+}

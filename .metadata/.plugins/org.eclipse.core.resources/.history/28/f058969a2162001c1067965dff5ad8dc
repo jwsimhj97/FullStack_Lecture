@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		//Object
+		
+		Object obj1=new Object();
+		Ex08 me=new Ex08();
+		me.equals(obj);
+	}
+
+}

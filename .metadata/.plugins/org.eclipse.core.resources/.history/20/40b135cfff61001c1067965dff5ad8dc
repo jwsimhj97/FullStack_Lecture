@@ -1,0 +1,18 @@
+package com.rom802;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		// 10정수타입
+		int su1=1111;
+		Integer su2=new Integer(2222);
+		Integer su3=new Integer("1234");
+		
+		System.out.println(Integer.MIN_VALUE+"~"+Integer.MAX_VALUE);
+		// 받은 값이 최소 최대 범위를 벗어나는 경우를 대비해서 미리 조건 처리 하는 경우에 사용 (예외처리)
+		System.out.println(Integer.BYTES);
+		System.out.println(Integer.SIZE);
+		System.out.println(Integer.parseInt("1234"));
+	}
+
+}

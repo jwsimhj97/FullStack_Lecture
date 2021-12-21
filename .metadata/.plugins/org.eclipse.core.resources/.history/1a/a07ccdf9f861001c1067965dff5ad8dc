@@ -1,0 +1,14 @@
+package com.rom802;
+
+public class window {
+
+	public window(){
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		long start=System.currentTimeMillis();
+		System.out.println(System.currentTimeMillis());
+		
+		// 실행할 때마다 값이 조금씩 증가. 진짜 시간임 1/1000 초
+
+	}
+
+}

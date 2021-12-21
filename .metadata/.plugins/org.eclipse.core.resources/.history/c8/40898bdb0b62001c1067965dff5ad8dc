@@ -1,0 +1,13 @@
+package com.rom802;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		char ch1='A';
+		Character ch2=new Character(ch1);
+		Character ch3=new Character((char)65);
+		System.out.println();
+		
+	}
+
+}

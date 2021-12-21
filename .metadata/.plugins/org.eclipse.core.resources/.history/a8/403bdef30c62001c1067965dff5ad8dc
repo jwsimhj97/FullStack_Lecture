@@ -1,0 +1,18 @@
+package com.rom802;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		char ch1='가';
+		Character ch2=new Character(ch1);
+		Character ch3=new Character((char)65);
+		System.out.println(ch1+"은 dbslzhemdlsi "+Character.isAlphabetic(ch1));
+		System.out.println(ch1+"은 유니코드이냐 "+Character.isLetter(ch1));
+		System.out.println(ch1+"은 숫자냐 "+Character.isDigit(ch1));	// 숫자인지 아닌지 검사할 때 그냥 이거 써
+//		System.out.println(ch1+"은 "+Character.is);
+//		System.out.println(ch1+"은 "+Character.is);
+//		System.out.println(ch1+"은 "+Character.is);
+		
+	}
+
+}

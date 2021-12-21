@@ -1,0 +1,20 @@
+package com.rom802;
+
+public class Ex08 {
+	int su=1;
+	
+	public static void main(String[] args) {
+		//Object
+		
+		Object obj1=new Object();
+		Ex08 me=new Ex08();
+		Ex08 you=new Ex08();
+		System.out.println(me==you);
+		System.out.println(me.equals(obj1));
+	}
+
+	public boolean equals(Object obj){	// 타입이 Object에 없는 순간 호출이 불가한데...
+		return this.su==(Ex08)obj.su;
+	}
+	
+}

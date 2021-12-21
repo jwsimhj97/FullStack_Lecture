@@ -1,0 +1,10 @@
+package com.rom802;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		System.out.println(Math.abs(12));
+		System.out.println(Math.abs(-112));
+	}
+
+}

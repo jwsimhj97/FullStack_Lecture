@@ -1,0 +1,11 @@
+package com.rom802;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		Byte su1=new Byte("127");
+		byte su3=127;
+		Byte su2=new Byte(su3);
+	}
+
+}
