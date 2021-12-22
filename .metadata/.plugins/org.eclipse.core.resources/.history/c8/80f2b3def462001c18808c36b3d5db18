@@ -1,0 +1,11 @@
+package com.hi;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		String[] arr1={"java","web","database","framework"};
+		
+		System.out.println(java.util.Arrays.toString(arr1));
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.hi;
+
+import java.io.FileNotFoundException;
+
+public class Ex08 {
+
+	public static void main(String[] args) throws FileNotFoundException{
+		//
+		java.util.Scanner sc=null;
+//		sc=new java.util.Scanner(System.in);
+		sc=new java.util.Scanner("abcd\n«—±€\n1234");
+		System.out.print(sc.next());
+		System.out.print(sc.next());
+		System.out.print(sc.next());
+	}
+
+}

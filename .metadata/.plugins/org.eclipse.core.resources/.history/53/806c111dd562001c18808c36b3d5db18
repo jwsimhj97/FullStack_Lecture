@@ -1,0 +1,22 @@
+package com.hi;
+
+class Lec05{
+	public static void func(){ // 편의상 static으로
+		class Local{
+			public void func(){
+				System.out.println("로컬클래스 기능");
+			}
+		}
+//		Local local=new Local();
+//		local.func();
+		new Local().local();
+	}
+}
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		Lec05.func();
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.hi;
+
+import java.util.Scanner;
+
+public class Ex13answer {
+
+	public static void main(String[] args) {
+		System.out.println("메모장 만들기(ver 0.1.0)");
+		Scanner sc=new Scanner(System.in);
+		String		input=null;
+		String[]	data=;
+		while(true){
+			System.out.println();
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.hi;
+
+public class HiList {
+	int[] data=new int[0];
+	
+	public void add(int a){
+		
+	}
+
+	public int get(int idx){	// idx에 해당하는 값
+		return 0;
+	}
+
+}

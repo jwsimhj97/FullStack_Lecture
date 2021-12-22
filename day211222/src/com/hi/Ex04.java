@@ -12,16 +12,17 @@ class Outter04{
 //		Inner04 inn=new Inner04();
 		Outter04 outt=new Outter04();
 		Inner04 inn=outt.new Inner04();	// 여기서는 내 안이니까 outt.Inner04라고 안했음
-		System.out.println();
+		System.out.println(inn.su2);	// 4444
 	}
 	public void func02(){
-		Inner04 inn=new Inner04();	// non static이니까 접근 가능
+		Inner04 inn=new Inner04();		// non static이니까 접근 가능
+		System.out.println(inn.su2);	// 4444
 	}
 	
 	//non-static
 	class Inner04{
-//		public static int su3=3333;
-		public int su4=4444;
+		public static final int su3=3333;
+		public int su2=4444;
 		
 		public Inner04(){}
 		
@@ -29,6 +30,10 @@ class Outter04{
 		
 		public void func04(){
 			System.out.println(su1);	//Outter04 생략가능
+			System.out.println(su2);	// 상속에서는 super때문에 접근이 가능했지만 여기서는 outter로 접근이 불가능하다
+										// (새로 찍어내면 그건 새로운 객체고)
+										// 그러면 사실상 필드도 오버라이딩 되는 느낌으로 보면 됨(실제로 그런 것이 아니라 그런 효과)
+										// 근데 필드명이 겹치지 않으면 상관이 없다
 //			Outter04 abc=new Outter04();
 			// 이렇게 찍으면 바깥쪽에 있는 Outter04 클래스와는 다른
 			

@@ -1,0 +1,44 @@
+package com.hi;
+
+import java.util.Scanner;
+
+public class Ex13answer {
+
+	public static void main(String[] args) {
+		System.out.println("메모장 만들기(ver 0.1.0)");
+		Scanner sc=new Scanner(System.in);
+		String		input=null;
+		String[]	data=null;
+		while(true){
+			System.out.println("1.작성 2.보기 [3.삭제] 0.종료 >");
+			input=sc.nextLine();
+			if(input.equals("1")){
+				// 1
+//				String[] temp=new String[1];
+				data[0]=sc.nextLine(); // 새 값 추가
+//				data=temp;
+				
+				// 2
+//				String[] temp=new String[2];
+//				data[0]=sc.nextLine(); // 기존 값 복사
+				data[1]=sc.nextLine(); // 새 값 추가
+//				data=temp;
+				
+				String[] temp=new String[data.length+1];
+				System.arraycopy(data, 0, temp, 0, data.length);
+				System.out.print(">>");
+				data[2]=sc.nextLine(); // 새 값 추가
+				data=temp;
+				
+				// 새로운 객체를 만들어서 값을 복사한 후에 마지막에 data[i]의 값을 복사하면 된다
+				
+			}else if(input.equals("2")){
+				for(int i=0; i<data.length; i++){
+					System.out.println(i+1+"\t"+data[i]);
+				}
+			}
+		}
+
+	}
+
+}

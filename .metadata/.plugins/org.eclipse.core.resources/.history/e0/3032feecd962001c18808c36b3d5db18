@@ -1,0 +1,27 @@
+package com.hi;
+
+interface Interr{
+	void func02();
+}
+
+class Lecc05{
+	public static void func(){
+		
+//		new Local().func02();	// 1.이러면 참조변수를 만들 필요가 없죠
+		
+		// 2.생성자 호출 - 한 번 쓰고 호출하고 버리는데 굳이 클래스를 따로 정의
+		new (class Local implements Inter{
+			public void func02(){
+				System.out.println("로컬클래스 기능");
+			}
+		}).func02();	// 클래스명 Local 자리에 클래스 선언정의를 갖다 붙임
+	}
+}
+
+public class Ex06_2 {
+
+	public static void main(String[] args) {
+		Lecc05.func();
+	}
+
+}

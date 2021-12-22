@@ -1,0 +1,22 @@
+package com.hi;
+
+public class HiList {
+	int[] data=new int[0];
+	
+	public void add(int a){
+		int[] temp=new int[data.length+1];
+		
+		temp[temp.length-1]=
+		
+		data=temp;
+	}
+
+	public int get(int idx){	// idx에 해당하는 값
+		return data[idx];
+	}
+	
+	public int size(){
+		return data.length;
+	}
+
+}

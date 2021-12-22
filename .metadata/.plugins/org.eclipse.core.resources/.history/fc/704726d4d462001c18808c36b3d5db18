@@ -1,0 +1,18 @@
+package com.hi;
+
+class Lec05{
+	public static void func(){ // 편의상 static으로
+		class Local{
+			
+		}
+	}
+}
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

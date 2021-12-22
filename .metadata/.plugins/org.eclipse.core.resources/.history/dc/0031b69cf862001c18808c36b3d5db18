@@ -1,0 +1,11 @@
+package com.hi;
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		int[] arr1={3,1,6,34};
+		int[] arr2={3,1,6,34};
+		a441.equals(null)
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.hi;
+
+class Lec05{
+	public static void func01(){ // 편의상 static으로
+		//1. 호출되면 여기를 실행하지말고
+		class Local{
+			public void func02(){
+				System.out.println("로컬클래스 기능");
+			}
+		}
+//		Local local=new Local();
+//		local.func02();
+		new Local().func02();	// 위 2줄은 이렇게도 표현 가능
+		
+	}
+}
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		Lec05.func(); // 2. 여기를 할게요
+		.func02();
+	}
+
+}
