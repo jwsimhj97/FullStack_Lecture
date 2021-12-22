@@ -1,0 +1,15 @@
+package com.hi;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	class Lec02{
+		// 클래스를 찾으려면 어디 있는지 모르니까 싫어함
+		// 장점이 물론 있긴 하다
+	}
+	
+}

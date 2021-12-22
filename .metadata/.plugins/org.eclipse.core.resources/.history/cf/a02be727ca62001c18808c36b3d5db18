@@ -1,0 +1,43 @@
+package com.hi;
+
+class Outter04{
+	public static int su1=1111;
+	public int su2=2222;
+	
+	public Outter04(){
+		
+	}
+	
+	public static void func01(){
+//		Inner04 inn=new Inner04();
+		Outter04 outt=new Outter04();
+		Inner04 inn=outt.new Inner04();
+		System.out.println();
+	}
+	public void func02(){
+		Inner04 inn=new Inner04();	// non static이니까 접근 가능
+	}
+	
+	//non-static
+	class Inner04{
+//		public static int su3=3333;
+		public int su4=4444;
+		
+		public Inner04(){}
+		
+//		public static void func03(){}
+		
+		public void func04(){
+			System.out.println(Outter04);
+		}
+	}
+}
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

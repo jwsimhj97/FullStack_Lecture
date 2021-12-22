@@ -1,0 +1,20 @@
+package com.hi;
+
+class Outter03{
+	static class Inner03{
+		
+	}	
+	
+	public Outter03(){
+		
+	}
+}
+
+public class Ex03 {
+
+	
+	public static void main(String[] args) {
+
+	}
+
+}
